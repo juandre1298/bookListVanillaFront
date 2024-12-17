@@ -36,14 +36,6 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   new Filter(blpSection).plotFilterOptions("filter_container",specsList);
   // checks the local storage to find changes
   setInterval(function() {
-    if(JSON.stringify(blpSection.originalBookList) !== localStorage.getItem("originalBookList")){
-      blpSection.originalBookList = JSON.parse(localStorage.getItem("originalBookList"));
-      blpSection.plot("book_list_section")
-    }
-    if(JSON.stringify(blpSection.displayingBooks) !== localStorage.getItem("displayingBooks")){
-      blpSection.displayingBooks = JSON.parse(localStorage.getItem("displayingBooks"));
-      blpSection.plot("book_list_section")
-    }
     if(JSON.stringify(blpSection.readingList) !== localStorage.getItem("readingList")){
       blpSection.readingList = JSON.parse(localStorage.getItem("readingList"));
       blpSection.plot("book_list_section")
