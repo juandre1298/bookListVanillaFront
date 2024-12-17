@@ -1,0 +1,16 @@
+{
+  "name": "01-reading-list",
+  "version": "1.0.0",
+  "description": "El objetivo de esta prueba es diseñar e implementar una pequeña aplicación web de lista de libros utilizando las herramientas de tu elección.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^23.4.0",
+    "nodemon": "^3.1.7"
+  }
+}

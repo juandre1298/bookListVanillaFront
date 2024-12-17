@@ -1,0 +1,47 @@
+
+.book_list_section lu{
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style-type: none;
+  gap: 30px;
+}
+.bookCard{
+  width: 300px;
+  object-fit: contain;
+  padding: 12px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bookCard h3{
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0;
+  height: 30px;
+}
+.bookCard img{
+  object-fit: contain;
+  width: auto;
+  height: 300px;
+}
+.bookCard .specs_section{
+  margin: 24px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.bookCard .cta.toRead{
+  background-color: #00bbf0;
+  color: white;
+  border-color: #00bbf0;
+}
